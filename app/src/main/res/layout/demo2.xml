@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <!-- <TextView
+         android:id="@+id/tv1"
+         android:layout_width="0dp"
+         android:layout_height="50dp"
+         android:layout_marginStart="10dp"
+         android:layout_marginTop="10dp"
+         android:background="@android:color/holo_blue_light"
+         android:gravity="center"
+         android:text="11111"
+         app:layout_constraintHorizontal_chainStyle="spread_inside"
+         app:layout_constraintHorizontal_weight="1"
+         app:layout_constraintRight_toLeftOf="@id/tv2"
+         app:layout_constraintStart_toStartOf="parent"
+         app:layout_constraintTop_toTopOf="parent" />-->
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/holo_blue_light"
+        android:gravity="center"
+        android:text="1"
+        app:layout_constraintHorizontal_chainStyle="spread_inside"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/tv2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!--   <TextView
+           android:id="@+id/tv2"
+           android:layout_width="0dp"
+           android:layout_height="50dp"
+           android:gravity="center"
+           android:text="hello world"
+           app:layout_constraintHorizontal_chainStyle="spread_inside"
+           app:layout_constraintHorizontal_weight="1"
+           app:layout_constraintLeft_toRightOf="@id/tv1"
+           app:layout_constraintRight_toLeftOf="@id/tv3"
+           app:layout_constraintTop_toTopOf="@id/tv1" />-->
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:background="@android:color/holo_orange_dark"
+        android:gravity="center"
+        android:text="2"
+        app:layout_constraintHorizontal_chainStyle="spread_inside"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintLeft_toRightOf="@id/tv1"
+        app:layout_constraintRight_toLeftOf="@id/tv3"
+        app:layout_constraintTop_toTopOf="@+id/tv1" />
+
+    <!--<TextView-->
+    <!--android:id="@+id/tv3"-->
+    <!--android:layout_width="0dp"-->
+    <!--android:layout_height="50dp"-->
+    <!--android:layout_marginEnd="10dp"-->
+    <!--android:gravity="center"-->
+    <!--android:text="hello world"-->
+    <!--app:layout_constraintEnd_toEndOf="parent"-->
+    <!--app:layout_constraintHorizontal_chainStyle="spread_inside"-->
+    <!--app:layout_constraintHorizontal_weight="3"-->
+    <!--app:layout_constraintLeft_toRightOf="@id/tv2"-->
+    <!--app:layout_constraintTop_toTopOf="@id/tv1" />-->
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginRight="10dp"
+        android:background="@android:color/holo_green_light"
+        android:gravity="center"
+        android:text="3"
+        app:layout_constraintHorizontal_chainStyle="spread_inside"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintLeft_toRightOf="@id/tv2"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@id/tv1" />
+
+
+</android.support.constraint.ConstraintLayout>
